@@ -2,7 +2,7 @@
 
 ###
 
-<p align="center">Modern Desktop Application that have tools for audio/video text recognition and many other cool utilities.</p>
+<p align="center">Modern Desktop Application offering a suite of tools for audio/video text recognition and a variety of other useful utilities.</p>
 
 ###
 
