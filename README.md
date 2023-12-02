@@ -1,4 +1,8 @@
-<h1 align="center">Whisper GUI</h1>
+<p align="center">
+  <img src="https://github.com/iamironman0/Whisper-Transcriber/assets/63475761/b1fb7eab-7c0c-4a13-8f56-367ac029b6e1">
+</p>
+
+<h1 align="center">Whisper Transcriber GUI</h1>
 
 ###
 
@@ -14,23 +18,7 @@
 
 ###
 
-<h2 align="left">Features</h2>
-
-###
-
-<p align="left">- Light/dark mode toggle<br>- Modern UI<br>- Customize model settings save/load<br>- Export output to different file type<br>- Cross platform<br>- and more...</p>
-
-###
-
 <h2 align="left">Installation</h2>
-
-###
-
-<h4 align="left">Requirements **</h4>
-
-###
-
-<p align="left">Python version 3.9 or newer<br>Torch with Cuda (Works on CPU but slower)<br>ffmpeg</p>
 
 ###
 
@@ -39,18 +27,21 @@
 ###
 
 ```
-git clone https://github.com/iamironman0/Whisper-GUI.git
+git clone https://github.com/iamironman0/Whisper-Transcriber.git
 ```
 ```
-cd Whisper-GUI
+cd Whisper-Transcriber
 ```
 ```
-pip install -r requirements.txt
+python setup.py
 ```
+and Finally run it
 ```
 python main.py
 ```
 ###
+
+<p align="center">Special thanks to <a href="https://github.com/Akascape" target="_blank">@Akascape</a> for bringing this app to life</p>
 
 <h2 align="left">Support</h2>
 
