@@ -14,7 +14,11 @@
 
 ###
 
-<p align="left">Coming Soon</p>
+<p align="center">Check demo folder for rest of other images</p>
+
+<p align="center">
+  <img src="demo/1.PNG">
+</p>
 
 ###
 
