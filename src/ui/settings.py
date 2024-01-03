@@ -292,7 +292,7 @@ class SettingsUI(ctk.CTkFrame):
 
         installed_models = []
 
-        cache_folder = os.path.join(os.path.expanduser('~'), '.cache\\whisper\\')
+        cache_folder = os.path.join(os.path.expanduser('~'), f'.cache{os.path.sep}whisper{os.path.sep}')
         files = os.listdir(cache_folder)
         for file in files:
             name, extension = os.path.splitext(file)
@@ -364,7 +364,7 @@ class SettingsUI(ctk.CTkFrame):
 
     def download_thread(self):
         interpreter_path = sys.executable
-        script_path = f"{current_path}\\download_models.py"
+        script_path = f"{current_path}{os.path.sep}download_models.py"
 
         command = [interpreter_path, script_path]
         self.process = subprocess.Popen(command)

@@ -4,16 +4,17 @@ import customtkinter as ctk
 from PIL import Image
 
 current_path = os.path.dirname(os.path.realpath(__file__))
+icon_path = f"{current_path}{os.path.sep}icons{os.path.sep}"
 
 icons = {
-    "info": ctk.CTkImage(dark_image=Image.open(f"{current_path}\\icons\\info_dark.png"),
-                         light_image=Image.open(f"{current_path}\\icons\\info_light.png"), size=(28, 28)),
-    "success": ctk.CTkImage(dark_image=Image.open(f"{current_path}\\icons\\success_dark.png"),
-                            light_image=Image.open(f"{current_path}\\icons\\success_light.png"), size=(28, 28)),
-    "error": ctk.CTkImage(dark_image=Image.open(f"{current_path}\\icons\\error_dark.png"),
-                          light_image=Image.open(f"{current_path}\\icons\\error_light.png"), size=(28, 28)),
-    "warning": ctk.CTkImage(dark_image=Image.open(f"{current_path}\\icons\\warning_dark.png"),
-                            light_image=Image.open(f"{current_path}\\icons\\warning_light.png"), size=(28, 28))
+    "info": ctk.CTkImage(dark_image=Image.open(f"{icon_path}info_dark.png"),
+                         light_image=Image.open(f"{icon_path}info_light.png"), size=(28, 28)),
+    "success": ctk.CTkImage(dark_image=Image.open(f"{icon_path}success_dark.png"),
+                            light_image=Image.open(f"{icon_path}success_light.png"), size=(28, 28)),
+    "error": ctk.CTkImage(dark_image=Image.open(f"{icon_path}error_dark.png"),
+                          light_image=Image.open(f"{icon_path}error_light.png"), size=(28, 28)),
+    "warning": ctk.CTkImage(dark_image=Image.open(f"{icon_path}warning_dark.png"),
+                            light_image=Image.open(f"{icon_path}warning_light.png"), size=(28, 28))
 }
 
 CTkFrame = {
