@@ -14,7 +14,7 @@ DEFAULT_CONFIG = {
 class SettingsHandler:
     def __init__(self):
         current_dir = os.path.dirname(__file__)
-        file_path = os.path.join(current_dir, '..', '..', 'assets\\config')
+        file_path = os.path.join(current_dir, '..', '..', f'assets{os.path.sep}config')
         self.config_path = os.path.normpath(file_path)
         self.settings_file_path = os.path.join(self.config_path, "settings.json")
 

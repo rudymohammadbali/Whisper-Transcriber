@@ -13,36 +13,37 @@ from src.ui.transcribe import TranscribeUI
 from src.ui.translate import TranslateUI
 
 current_path = os.path.dirname(os.path.realpath(__file__))
+icon_path = f"{current_path}{os.path.sep}assets{os.path.sep}icons{os.path.sep}"
 
 icons = {
-    "logo": ctk.CTkImage(dark_image=Image.open(f"{current_path}\\assets\\icons\\logo.png"),
-                         light_image=Image.open(f"{current_path}\\assets\\icons\\logo.png"), size=(50, 50)),
-    "close": ctk.CTkImage(dark_image=Image.open(f"{current_path}\\assets\\icons\\close_dark.png"),
-                          light_image=Image.open(f"{current_path}\\assets\\icons\\close_light.png"), size=(30, 30)),
-    "audio_file": ctk.CTkImage(dark_image=Image.open(f"{current_path}\\assets\\icons\\audio_file_dark.png"),
-                               light_image=Image.open(f"{current_path}\\assets\\icons\\audio_file_light.png"),
+    "logo": ctk.CTkImage(dark_image=Image.open(f"{icon_path}logo.png"),
+                         light_image=Image.open(f"{icon_path}logo.png"), size=(50, 50)),
+    "close": ctk.CTkImage(dark_image=Image.open(f"{icon_path}close_dark.png"),
+                          light_image=Image.open(f"{icon_path}close_light.png"), size=(30, 30)),
+    "audio_file": ctk.CTkImage(dark_image=Image.open(f"{icon_path}audio_file_dark.png"),
+                               light_image=Image.open(f"{icon_path}audio_file_light.png"),
                                size=(30, 30)),
-    "translation": ctk.CTkImage(dark_image=Image.open(f"{current_path}\\assets\\icons\\translation_dark.png"),
-                                light_image=Image.open(f"{current_path}\\assets\\icons\\translation_light.png"),
+    "translation": ctk.CTkImage(dark_image=Image.open(f"{icon_path}translation_dark.png"),
+                                light_image=Image.open(f"{icon_path}translation_light.png"),
                                 size=(30, 30)),
-    "microphone": ctk.CTkImage(dark_image=Image.open(f"{current_path}\\assets\\icons\\microphone_dark.png"),
-                               light_image=Image.open(f"{current_path}\\assets\\icons\\microphone_light.png"),
+    "microphone": ctk.CTkImage(dark_image=Image.open(f"{icon_path}microphone_dark.png"),
+                               light_image=Image.open(f"{icon_path}microphone_light.png"),
                                size=(30, 30)),
-    "subtitles": ctk.CTkImage(dark_image=Image.open(f"{current_path}\\assets\\icons\\subtitles_dark.png"),
-                              light_image=Image.open(f"{current_path}\\assets\\icons\\subtitles_light.png"),
+    "subtitles": ctk.CTkImage(dark_image=Image.open(f"{icon_path}subtitles_dark.png"),
+                              light_image=Image.open(f"{icon_path}subtitles_light.png"),
                               size=(30, 30)),
-    "paypal": ctk.CTkImage(dark_image=Image.open(f"{current_path}\\assets\\icons\\paypal_dark.png"),
-                           light_image=Image.open(f"{current_path}\\assets\\icons\\paypal_light.png"), size=(30, 30)),
-    "settings": ctk.CTkImage(dark_image=Image.open(f"{current_path}\\assets\\icons\\settings_dark.png"),
-                             light_image=Image.open(f"{current_path}\\assets\\icons\\settings_light.png"),
+    "paypal": ctk.CTkImage(dark_image=Image.open(f"{icon_path}paypal_dark.png"),
+                           light_image=Image.open(f"{icon_path}paypal_light.png"), size=(30, 30)),
+    "settings": ctk.CTkImage(dark_image=Image.open(f"{icon_path}settings_dark.png"),
+                             light_image=Image.open(f"{icon_path}settings_light.png"),
                              size=(30, 30)),
-    "help": ctk.CTkImage(dark_image=Image.open(f"{current_path}\\assets\\icons\\help_dark.png"),
-                         light_image=Image.open(f"{current_path}\\assets\\icons\\help_light.png"), size=(30, 30)),
-    "github": ctk.CTkImage(dark_image=Image.open(f"{current_path}\\assets\\icons\\github_dark.png"),
-                           light_image=Image.open(f"{current_path}\\assets\\icons\\github_light.png"), size=(30, 30))
+    "help": ctk.CTkImage(dark_image=Image.open(f"{icon_path}help_dark.png"),
+                         light_image=Image.open(f"{icon_path}help_light.png"), size=(30, 30)),
+    "github": ctk.CTkImage(dark_image=Image.open(f"{icon_path}github_dark.png"),
+                           light_image=Image.open(f"{icon_path}github_light.png"), size=(30, 30))
 }
 
-logo = f"{current_path}\\assets\\icons\\logo.ico"
+logo = f"{icon_path}logo.ico"
 
 btn = {
     "width": 280,

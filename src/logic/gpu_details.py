@@ -10,7 +10,7 @@ class GPUInfo:
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.cuda_available = torch.cuda.is_available()
         current_dir = os.path.dirname(__file__)
-        file_path = os.path.join(current_dir, '..', '..', 'assets\\config')
+        file_path = os.path.join(current_dir, '..', '..', f'assets{os.path.sep}config')
         self.config_path = os.path.normpath(file_path)
         self.gpu_info_file_path = os.path.join(self.config_path, "gpu_info.json")
 
