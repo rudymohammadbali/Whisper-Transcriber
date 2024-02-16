@@ -120,7 +120,7 @@ languages = [
 
 
 def help_link():
-    webbrowser.open("https://github.com/iamironman0/Whisper-Transcriber/discussions/categories/q-a")
+    webbrowser.open("https://github.com/rudymohammadbali/Whisper-Transcriber/discussions/categories/q-a")
 
 
 class SettingsUI(ctk.CTkFrame):
