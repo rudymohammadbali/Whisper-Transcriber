@@ -31,7 +31,7 @@
 ###
 
 ```
-git clone https://github.com/iamironman0/Whisper-Transcriber.git
+git clone https://github.com/rudymohammadbali/Whisper-Transcriber.git
 ```
 ```
 cd Whisper-Transcriber
